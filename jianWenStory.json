@@ -1,0 +1,144 @@
+{
+    "Title": "Egyptian Plague",
+    "Credits": "Story by JianwenWu",
+    "InitialLocation": "Village",
+    "Locations": {
+        "Village": {
+            "Body": "You seem to have awakened in a small stone house in a village in Egypt. You glance and observe your surroundings.",
+            "Choices": [
+                {
+                    "Text": "Observe",
+                    "Target": "House"
+                } 
+            ]
+        },
+        "Shovel": {
+            "Body": "You pick up the shovel and feel a sense of nostalgia.",
+            "Choices": [
+                {
+                    "Text": "Move Outside",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "House": {
+            "Body": "You look around and see a shiny bracelet on top of a note on the table and a couple of items laying around the room. The note reads -> Meet me in the main city, i'll find you... we are going to hit it big - Big Brother",
+            "Choices": [
+                {
+                    "Text": "Move Outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "Village"
+                }
+            ]
+        },
+        "Outside": {
+            "Body": "You are outside your village house and see a couple of villagers walking around. You see a couple of people talking about the ominous signs and strange occurrences happening around the village. On another Note, you see a the goodest boy in the world, a dog.",
+            "Choices": [
+                {
+                    "Text": "Talk to the villagers",
+                    "Target": "People"
+                },
+                {
+                    "Text": "Dogs are the BEST",
+                    "Target": "Dog"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "House"
+                }
+            ]
+        },
+        "Dog": {
+            "Body": "You pet the dog and it wags its tail. You feel a sense of happiness and joy. You feel a rush of memories of your own dog as a child when the family was still together. You feel a sense of nostalgia and happiness. You remember the old tales your father to tell you about the secret water tunnels along the nile river.",
+            "Choices": [
+                {
+                    "Text": "Lets Head to the Main City!",
+                    "Target": "Gate"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "House"
+                }
+            ]
+        },
+        "People": {
+            "Body": "You talk to the villages and they tell you about the weird weather patterns and strange smell coming from the river.",
+            "Choices": [
+                {
+                    "Text": "Lets Head to the Main City!",
+                    "Target": "Gate"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "House"
+                }
+            ]
+        },
+        "Gate": {
+            "Body": "You near the entrance to the main city and see a couple of guards standing at the entrance. They seem to taking entrance fees from the people entering the city. You see a couple of people entering the city and a couple of people leaving the city. I didn't bring any money with me. What should I do?",
+            "Choices": [
+                {
+                    "Text": "Sneak In Through the Back",
+                    "Target": "MainCity"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "Outside"
+                }
+
+            ]
+        },
+        "MainCity": {
+            "Body": "You manage to sneak through the sewer",
+            "Choices": [
+                {
+                    "Text": "Look for Brother",
+                    "Target": "CityStreet"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "CityStreet" : {
+            "Body": "You walk around the city and see a couple of people walking around. There seems to be chatter about a man named Moses who went to visit the king.... There seems to be a lot of commotion near the River. What happened?",
+            "Choices": [
+                {
+                    "Text": "Goto River",
+                    "Target": "River"
+                },
+                {
+                    "Text": "Previous Location",
+                    "Target": "Gate"
+                }
+            ]
+        },
+        "River": {
+            "Body": "You walk to the river and see a couple of people talking about the strange smell coming from the river. What a scene the entire river is red and the fish are dead! There is no more clean water to drink. You hear the king's messenger exclaim, -> ANyone who can find a new water source will be greatly rewarded! Maybe we'll find something useful from a previous location?",
+            "Choices": [
+
+                {
+                    "Text": "Previous Location",
+                    "Target": "CityStreet"
+                }
+            ]
+        },
+        "Water!" : {
+            "Body": "You remember the old stories your family use to tell about the secret water tunnels and start digging around. You find a secret water tunnel and water starts to overflow. Everyone around you starts cheering!",
+            "Choices": [
+                {
+                    "Text": "Where is my Brother?",
+                    "Target": "Beyond"
+                }
+            ]
+        },
+
+        "Beyond": {
+            "Body": "I hope nothing bad happened to my brother. I should go look for him."
+        }
+    }
+}

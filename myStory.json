@@ -1,0 +1,71 @@
+{
+    "Title": "Egyptian Plague",
+    "Credits": "Story by JianwenWu, Template Created by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Kresge",
+    "Locations": {
+        "Kresge": {
+            "Body": "This is Kresge College its bad Crown is better.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Porter"
+                }
+            ]
+        },
+        "Porter": {
+            "Body": "This is Porter College is Bad Crown is better.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Kresge"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Rachel Carson"
+                }
+            ]
+        },
+        "Rachel Carson": {
+            "Body": "Rachel Carson College is Bad Crown is better.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Porter"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Oakes"
+                }
+            ]
+        },
+        "Oakes": {
+            "Body": "Oakes College is bad Crown is Better.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Rachel Carson"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Crown"
+                }
+            ]
+        },
+        "Crown": {
+            "Body": "Crown is the Best YIPPE",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Oakes"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Beyond"
+                }
+            ]
+        },
+        "Beyond": {
+            "Body": "Crown is the Best! YES YES YES!"
+        }
+    }
+}
